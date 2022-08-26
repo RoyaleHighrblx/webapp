@@ -1,6 +1,6 @@
-status = "";
 img = "";
 objects = [];
+status = "";
 
 function preload(){
     img = loadImage('fruits.jpg');
@@ -24,7 +24,7 @@ function gotResult(error, results){
         console.log(error);
     }
     console.log(results);
-    objects = results;
+    objects = results;    
 }
 
 function draw(){
